@@ -1,0 +1,6 @@
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\ClassLibrary\obj\Debug\ClassLibrary.pdb

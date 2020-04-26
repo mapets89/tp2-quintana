@@ -1,0 +1,9 @@
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\bin\Debug\BusinessLayers.dll
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\bin\Debug\BusinessLayers.pdb
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\bin\Debug\ClassLibrary.dll
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\bin\Debug\ClassLibrary.pdb
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\obj\Debug\BusinessLayers.csprojAssemblyReference.cache
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\obj\Debug\BusinessLayers.csproj.CoreCompileInputs.cache
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\obj\Debug\BusinessLayers.csproj.CopyComplete
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\obj\Debug\BusinessLayers.dll
+D:\UTN\Programacion 3\TP 2 - Quintana\TP2_Quintana\BusinessLayers\obj\Debug\BusinessLayers.pdb
