@@ -72,7 +72,7 @@
             this.dgvArticulo.RowTemplate.ReadOnly = true;
             this.dgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvArticulo.Size = new System.Drawing.Size(662, 180);
-            this.dgvArticulo.TabIndex = 0;
+            this.dgvArticulo.TabIndex = 1;
             this.dgvArticulo.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvArticulo_CellMouseClick);
             // 
             // tituloForm
@@ -99,7 +99,7 @@
             this.searchBoxMarca.Location = new System.Drawing.Point(275, 121);
             this.searchBoxMarca.Name = "searchBoxMarca";
             this.searchBoxMarca.Size = new System.Drawing.Size(97, 27);
-            this.searchBoxMarca.TabIndex = 35;
+            this.searchBoxMarca.TabIndex = 4;
             this.searchBoxMarca.Text = "Marca Articulo";
             this.searchBoxMarca.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.searchBoxMarca.TextChanged += new System.EventHandler(this.searchBoxMarca_TextChanged);
@@ -116,7 +116,7 @@
             this.searchBoxName.Location = new System.Drawing.Point(154, 121);
             this.searchBoxName.Name = "searchBoxName";
             this.searchBoxName.Size = new System.Drawing.Size(97, 27);
-            this.searchBoxName.TabIndex = 33;
+            this.searchBoxName.TabIndex = 3;
             this.searchBoxName.Text = "Nombre Articulo";
             this.searchBoxName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.searchBoxName.TextChanged += new System.EventHandler(this.searchBoxName_TextChanged);
@@ -133,7 +133,7 @@
             this.searchBoxCod.Location = new System.Drawing.Point(42, 121);
             this.searchBoxCod.Name = "searchBoxCod";
             this.searchBoxCod.Size = new System.Drawing.Size(97, 27);
-            this.searchBoxCod.TabIndex = 32;
+            this.searchBoxCod.TabIndex = 2;
             this.searchBoxCod.Text = "Codigo Articulo";
             this.searchBoxCod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.searchBoxCod.TextChanged += new System.EventHandler(this.searchBoxCod_TextChanged);
@@ -150,7 +150,7 @@
             this.categoriaBox.Location = new System.Drawing.Point(397, 121);
             this.categoriaBox.Name = "categoriaBox";
             this.categoriaBox.Size = new System.Drawing.Size(121, 28);
-            this.categoriaBox.TabIndex = 36;
+            this.categoriaBox.TabIndex = 5;
             this.categoriaBox.Text = "Categorias";
             this.categoriaBox.TextChanged += new System.EventHandler(this.categoriaBox_TextChanged);
             this.categoriaBox.Enter += new System.EventHandler(this.categoriaBox_Enter);
@@ -176,6 +176,8 @@
             this.descripcionText.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.descripcionText.BackColor = System.Drawing.Color.SkyBlue;
             this.descripcionText.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.descripcionText.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.descripcionText.Enabled = false;
             this.descripcionText.Font = new System.Drawing.Font("Rockwell Condensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descripcionText.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.descripcionText.Location = new System.Drawing.Point(45, 411);
@@ -190,6 +192,7 @@
             this.tituloArticulo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tituloArticulo.BackColor = System.Drawing.Color.SkyBlue;
             this.tituloArticulo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tituloArticulo.Enabled = false;
             this.tituloArticulo.Font = new System.Drawing.Font("Rockwell Extra Bold", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tituloArticulo.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.tituloArticulo.Location = new System.Drawing.Point(714, 519);
@@ -227,7 +230,7 @@
             this.maxBox.Location = new System.Drawing.Point(275, 154);
             this.maxBox.Name = "maxBox";
             this.maxBox.Size = new System.Drawing.Size(97, 27);
-            this.maxBox.TabIndex = 42;
+            this.maxBox.TabIndex = 7;
             this.maxBox.Text = "Precio Max";
             this.maxBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maxBox.TextChanged += new System.EventHandler(this.maxBox_TextChanged);
@@ -244,7 +247,7 @@
             this.minBox.Location = new System.Drawing.Point(154, 154);
             this.minBox.Name = "minBox";
             this.minBox.Size = new System.Drawing.Size(97, 27);
-            this.minBox.TabIndex = 41;
+            this.minBox.TabIndex = 6;
             this.minBox.Text = "Precio Min";
             this.minBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.minBox.TextChanged += new System.EventHandler(this.minBox_TextChanged);
