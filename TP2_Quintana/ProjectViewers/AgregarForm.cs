@@ -102,7 +102,10 @@ namespace ProjectViewers
             }   
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+               if(ex.TargetSite.Name == "StringToNumber")
+                {
+                    MessageBox.Show("El valor de Precio deber ser numerico");
+                }
             }
         }
 
