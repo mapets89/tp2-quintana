@@ -121,7 +121,7 @@ namespace ProjectViewers
                 catch (Exception)
                 {
 
-                    eliminarPicture.Load("https://cdn.memegenerator.es/descargar/31098342");
+                    eliminarPicture.Load("https://i.pinimg.com/originals/cb/15/f6/cb15f6417493b802312984f9e591181c.jpg");
                 }
                 tituloEliminar.Text = articulo.Nombre;
                 precioEliminar.Text = "$ " + articulo.Precio;

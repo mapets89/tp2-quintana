@@ -31,7 +31,7 @@ namespace ProjectViewers
 
             try{
                 ToolTip message = new ToolTip();
-                message.SetToolTip(addMarca, "Clickee Aqui para Agregar una Marca Nueva");
+                message.SetToolTip(addMarca, "Haz click aqui para agregar una Marca Nueva");
                 cboMarca.DataSource = marca.ListarMarca();
                 cboMarca.ValueMember = "Id";
                 cboMarca.DisplayMember = "Descripcion";

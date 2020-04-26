@@ -65,7 +65,7 @@ namespace ProjectViewers
                 catch (Exception)
                 {
 
-                    articuloPicture.Load("https://i.pinimg.com/originals/b1/96/b8/b196b8e35be5bff617441eabf5d6a02a.jpg");
+                    articuloPicture.Load("https://i.pinimg.com/originals/cb/15/f6/cb15f6417493b802312984f9e591181c.jpg");
                 }
                 
                 tituloArticulo.Text = articulo.Nombre;
